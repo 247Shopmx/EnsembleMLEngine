@@ -1,0 +1,22 @@
+{
+  "project_name": "football-ai",
+  "version": "1.0",
+  "target": {
+    "win_draw_loss": true,
+    "btts": true,
+    "over_under": true,
+    "correct_score": true
+  },
+  "features": {
+    "elo": true,
+    "form_last_5": true,
+    "goals_for_against": true,
+    "home_away": true,
+    "rest_days": true
+  },
+  "models": {
+    "xgboost": true,
+    "lightgbm": true,
+    "catboost": true
+  }
+}
